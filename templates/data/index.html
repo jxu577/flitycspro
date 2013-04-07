@@ -1,0 +1,400 @@
+
+<html>
+<head>
+
+<title>flitycs</title>
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+  <script type="text/javascript" src="webtoolkit.scrollabletable.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="webtoolkit.jscrollable.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function() {
+      jQuery('table').Scrollable(200, 800);
+    });
+  </script>
+ 
+
+
+  <style type="text/css">
+
+
+  .box {
+
+    position: absolute;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    left: 50%;
+    margin-left: -25%;
+}
+
+#first {
+    left: -150%;
+}
+
+#second {
+  font-size:100px;
+  margin-top: 120px;
+  margin-left: -700px;
+}
+
+#third {
+    left: 150%;
+}
+
+
+  table a:link {
+  color: #666;
+  font-weight: bold;
+  text-decoration:none;
+}
+table a:visited {
+  color: #999999;
+  font-weight:bold;
+  text-decoration:none;
+}
+table a:active,
+table a:hover {
+  color: #3B3C3D;
+  text-decoration:underline;
+}
+table {
+  font-family:Arial, Helvetica, sans-serif;
+  color:838587;
+  font-size:12px;
+  text-shadow: 1px 1px 0px #3B3C3D;
+  background:#3B3C3D;
+  margin:10px;
+  border:#ccc 0px solid;
+
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+
+  -moz-box-shadow: 0 1px 2px white;
+  -webkit-box-shadow: 0 1px 1px white;
+  box-shadow: 0 1px 1px #3B3C3D;
+}
+table th {
+  padding:11px 15px 12px 15px;
+  border-top:1px solid #3B3C3D;
+  border-bottom:1px solid #3B3C3D;
+  border-right:1px solid 5C5D5E;
+  background: #3B3C3D;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3B3C3D), to(#3B3C3D));
+  background: -moz-linear-gradient(top,  white,  white);
+}
+table th:first-child {
+  text-align: left;
+  padding-left:20px;
+}
+table tr:first-child th:first-child {
+  -moz-border-radius-topleft:3px;
+  -webkit-border-top-left-radius:3px;
+  border-top-left-radius:3px;
+}
+table tr:first-child th:last-child {
+  -moz-border-radius-topright:3px;
+  -webkit-border-top-right-radius:3px;
+  border-top-right-radius:3px;
+}
+table tr {
+  text-align: center;
+  padding-left:20px;
+}
+table td:first-child {
+  text-align: left;
+  padding-left:20px;
+  border-left: 0;
+}
+table td {
+  padding:18px;
+  border-top: 1px solid #3B3C3D;
+  border-bottom:1px solid #3B3C3D;
+  border-right: 1px solid #3B3C3D;
+
+  background: #fafafa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+  background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+table tr.even td {
+  background: #f6f6f6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+  background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+table tr:last-child td {
+  border-bottom:0;
+}
+table tr:last-child td:first-child {
+  -moz-border-radius-bottomleft:3px;
+  -webkit-border-bottom-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+table tr:last-child td:last-child {
+  -moz-border-radius-bottomright:3px;
+  -webkit-border-bottom-right-radius:3px;
+  border-bottom-right-radius:3px;
+}
+table tr:hover td {
+  background: #f2f2f2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+  background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);  
+}
+
+  body {
+    color: white;
+    overflow:hidden;
+    background:url(../static/moulin.png) ;
+    background-color:black;}
+
+.welcome {
+  overflow:hidden;
+	height: 300px;
+	width: 100%;
+	float: right;
+	margin-right: 00px;
+  margin-top: 50px;
+	position: relative;
+	background-color: ;}
+
+
+  .stock {
+  height: 350px;
+  width: 950px;
+  float: right;
+  overflow: auto;
+  margin-right: 00px;
+
+  position: relative;
+  background-color: ;}
+
+  .line{
+    color:black;
+    margin-top:250px;
+    position:absolute;
+    width:100%;height: 20px;
+    overflow:hidden;
+  z-index:-1;}
+
+   .symbol{
+    font-family:"Times New Roman";
+    font-color:white;
+    margin-left:0px;
+    width:150px;
+    font-size:100px;
+  }
+
+
+    .data{
+    font-family:"Arial";
+    position:absolute;
+    margin-right:0px;
+    margin-top:-110px;
+    margin-left:330px;
+    width:200px;
+    font-color:white;
+    font-size:12px;
+  }
+
+  .strong{font-weight:bold;font-size: 14px;color:#669999;}
+
+
+
+  header {
+    font-family:"Times New Roman";
+    font-color:white;
+    font-size:200px;
+  }
+
+
+
+
+a:link {color:#6d6d6d;font-family:"Times new roman",serif;text-decoration: none;}      /* unvisited link */
+a:visited {color:#6d6d6d;font-family:"Times new roman",serif;text-decoration: none;}  /* visited link */
+a:hover {color:#ffffff;font-family:"Times new roman",serif;text-decoration: none;}  /* mouse over link */
+a:active {color:#ffffff;font-family:"Times new roman",serif;text-decoration: none;}  /* selected link */
+
+
+#search {
+
+}
+
+#search input[type="text"] {
+    background: url(search-dark.png) no-repeat 10px 6px #444;
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #777;
+    width: 500px;
+    height:50px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0px 0 rgba(51, 51, 51, 1), 0 0px 0px rgba(51, 51, 51, 1) inset;
+    -moz-box-shadow: 0 0px 0 rgba(51, 51, 51, 1), 0 0px 0px rgba(51, 51, 51, 1) inset;
+    box-shadow: 0 1px 0 rgba(51, 51, 51, 1), 0 1px 0px rgba(51, 51, 51, 1) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+    width: 600px;
+
+    }
+  </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>	
+	<div class = "welcome">
+
+<div id = "first" class="box">
+<header>analytics</header>
+</div>
+
+<div id = "second" class="box">
+  financial data at your fingertips
+
+</div>
+
+<div id = "third" class="box">
+  <header>flit<i>y</i>cs.</header>
+</div>
+
+
+
+
+</div>
+
+<div class="line">
+  <hr size="7" noshade color="#669999"></div>
+<div class = "stock" >
+
+
+<script>
+
+
+$('#second').click(function(e) {
+
+    $(this).animate({
+        left: '-50%'
+    }, 500, function() {
+        $(this).css('left', '150%');
+        $(this).appendTo('#container');
+    });
+
+    $(this).next().animate({
+        left: '50%'
+    }, 500);
+});
+
+
+$(function() {
+
+  $('#findStock').click(function(e){
+    stock = $("#stock").val()
+    $.ajax({
+        url: stock,
+        success: function(response){
+             $('#tab:visible').hide("fast").fadeOut("fast");
+           $('#tab').show("slow").fadeIn("slow");
+
+           var eps =parseInt(response['earnings_per_share']);
+           var pregrowth =parseInt(response['price_earnings_growth_ratio']);
+           var growth = pregrowth + 1;
+           var pe = parseInt(response['price_earnings_ratio']);
+           var price = eps*pregrowth*pe;
+
+           if (price >= response['price'])
+            { 
+              var rec = "Buy"; 
+            } else if (price <= response['price']){
+              var rec = "Sell";
+            } else {
+              var rec="Not enough info to determine"
+            }
+  
+
+         $('#exchange').text("Stock Exchange: "+response['stock_exchange']);
+         $('#volume').text("Volume: "+response['volume']);
+         $('#bookvalue').text("Book Value :"+response['book_value']);
+         $('#ebidta').text("EBIDTA :"+response['ebitda']);
+         $('#pp').text("Predicted Price :"+ price.toString());
+         $('#recommendation').text("Recommendation: "+rec);
+       
+
+         $('.symbol').text(response['symbol']);
+         $('#price').text(response['price']);
+         $('#change').text(response['change']);
+         $('#dividend').text(response['dividend_per_share']);
+         $('#priceearnings').text(response['price_earnings_ratio']);
+         $('#earningspershare').text(response['earnings_per_share']);
+         $('#marketcap').text(response['market_cap']);
+        }
+      });
+    e.preventDefault();
+    return false;
+  });
+});
+
+
+</script>
+
+
+
+<form action="#" name="stocksymbol" onsubmit="" method="get" id="search"> 
+ <input name="q" size="40" type="text" id="stock" placeholder="Enter Stock Ticker"/>
+<button id='findStock' style="color:transparent; background-color:transparent; border-color:transparent;">Submit</button>
+</form>
+<div class = test> 
+  <div class = symbol> </div>
+  <div class = data> 
+
+
+      <div id ="exchange"></div>
+      <div id="volume"></div>
+      <div id="bookvalue"></div>
+      <div id="ebidta"></div>
+      <div class="strong" id="pp"></div>
+      <div class="strong" id="recommendation"></div>
+      
+
+  </div>
+
+<table cellspacing="0" id="tab" style="display:none">
+  <thead>
+    <tr>
+      <th>Price</th>
+      <th>Change</th>
+      <th>Dividend</th>
+      <th>P/E</th>
+      <th>EPS</th>
+      <th>Market Cap</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+
+    <tr >
+      <td id ="price"></td>
+      <td id="change"></td>
+      <td id="dividend"></td>
+      <td id="priceearnings"></td>
+      <td id="earningspershare"></td>
+      <td id="marketcap"></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+ </div>
+
+</div>
+
+</body></html>
