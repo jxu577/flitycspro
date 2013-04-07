@@ -1,0 +1,277 @@
+date,price,sentiment
+Argentina,-28,168
+Bangladesh,-15,129
+Bolivia,-44,155
+Brazil,-52,130
+Britain,30,7
+Bulgaria,-9,66
+Canada,47,17
+Chile,-56,37
+China,78,91
+Czech Rep.,-18,65
+Egypt,21,109
+Ethiopia,-5,127
+France,-23,34
+Germany,4,20
+Ghana,-26,64
+India,7,132
+Indonesia,18,128
+Israel,-31,38
+Italy,-26,73
+Côte d'Ivoire,-14,177
+Japan,-16,24
+Jordan,2,106
+Kenya,-87,121
+Kuwait,-76,82
+Lebanon,-57,115
+Malaysia,13,12
+Mali,-16,151
+Mexico,-6,48
+Morocco,-10,97
+Nigeria,-55,131
+Pakistan,25,107
+Peru,-56,43
+Poland,-7,55
+Russia,5,112
+South Africa,-31,39
+South Korea,-8,8
+Senegal,-55,166
+Slovakia,-17,46
+Spain,-23,44
+Sweden,82,13
+Tanzania,-33,134
+Turkey,-27,71
+Uganda,-63,120
+Ukraine,-8,137
+United States,12,4
+Venezuela,-2,180
+Argentina,-28,168
+Bangladesh,-15,129
+Bolivia,-44,155
+Brazil,-52,130
+Britain,30,7
+Bulgaria,-9,66
+Canada,47,17
+Chile,-56,37
+China,78,91
+Czech Rep.,-18,65
+Egypt,21,109
+Ethiopia,-5,127
+France,-23,34
+Germany,4,20
+Ghana,-26,64
+India,7,132
+Indonesia,18,128
+Israel,-31,38
+Italy,-26,73
+Côte d'Ivoire,-14,177
+Japan,-16,24
+Jordan,2,106
+Kenya,-87,121
+Kuwait,-76,82
+Lebanon,-57,115
+Malaysia,13,12
+Mali,-16,151
+Mexico,-6,48
+Morocco,-10,97
+Nigeria,-55,131
+Pakistan,25,107
+Peru,-56,43
+Poland,-7,55
+Russia,5,112
+South Africa,-31,39
+South Korea,-8,8
+Senegal,-55,166
+Slovakia,-17,46
+Spain,-23,44
+Sweden,82,13
+Tanzania,-33,134
+Turkey,-27,71
+Uganda,-63,120
+Ukraine,-8,137
+United States,12,4
+Venezuela,-2,180
+Argentina,-28,168
+Bangladesh,-15,129
+Bolivia,-44,155
+Brazil,-52,130
+Britain,30,7
+Bulgaria,-9,66
+Canada,47,17
+Chile,-56,37
+China,78,91
+Czech Rep.,-18,65
+Egypt,21,109
+Ethiopia,-5,127
+France,-23,34
+Germany,4,20
+Ghana,-26,64
+India,7,132
+Indonesia,18,128
+Israel,-31,38
+Italy,-26,73
+Côte d'Ivoire,-14,177
+Japan,-16,24
+Jordan,2,106
+Kenya,-87,121
+Kuwait,-76,82
+Lebanon,-57,115
+Malaysia,13,12
+Mali,-16,151
+Mexico,-6,48
+Morocco,-10,97
+Nigeria,-55,131
+Pakistan,25,107
+Peru,-56,43
+Poland,-7,55
+Russia,5,112
+South Africa,-31,39
+South Korea,-8,8
+Senegal,-55,166
+Slovakia,-17,46
+Spain,-23,44
+Sweden,82,13
+Tanzania,-33,134
+Turkey,-27,71
+Uganda,-63,120
+Ukraine,-8,137
+United States,12,4
+Venezuela,-2,180
+Argentina,-28,168
+Bangladesh,-15,129
+Bolivia,-44,155
+Brazil,-52,130
+Britain,30,7
+Bulgaria,-9,66
+Canada,47,17
+Chile,-56,37
+China,78,91
+Czech Rep.,-18,65
+Egypt,21,109
+Ethiopia,-5,127
+France,-23,34
+Germany,4,20
+Ghana,-26,64
+India,7,132
+Indonesia,18,128
+Israel,-31,38
+Italy,-26,73
+Côte d'Ivoire,-14,177
+Japan,-16,24
+Jordan,2,106
+Kenya,-87,121
+Kuwait,-76,82
+Lebanon,-57,115
+Malaysia,13,12
+Mali,-16,151
+Mexico,-6,48
+Morocco,-10,97
+Nigeria,-55,131
+Pakistan,25,4
+Peru,-56,43
+Poland,-7,34
+Russia,5,112
+South Africa,-31,39
+South Korea,-8,78
+Senegal,-55,56
+Slovakia,-17,89
+Spain,-23,4
+Sweden,82,43
+Tanzania,-33,134
+Turkey,-27,71
+Uganda,-63,120
+Ukraine,-8,137
+United States,12,4
+Venezuela,-2,180
+Argentina,-28,168
+Bangladesh,-15,129
+Bolivia,-44,155
+Brazil,-52,130
+Britain,30,7
+Bulgaria,-9,66
+Canada,47,17
+Chile,-56,37
+China,78,91
+Czech Rep.,-18,65
+Egypt,21,109
+Ethiopia,-5,127
+France,-23,34
+Germany,4,20
+Ghana,-26,64
+India,7,132
+Indonesia,18,128
+Israel,-31,38
+Italy,-26,73
+Côte d'Ivoire,-14,177
+Japan,-16,24
+Jordan,2,106
+Kenya,-87,121
+Kuwait,-76,82
+Lebanon,-57,115
+Malaysia,13,12
+Mali,-16,151
+Mexico,-6,48
+Morocco,-10,97
+Nigeria,-55,131
+Pakistan,25,107
+Peru,-56,43
+Poland,-7,55
+Russia,5,112
+South Africa,-31,39
+South Korea,-8,8
+Senegal,-55,166
+Slovakia,-17,46
+Spain,-23,44
+Sweden,82,13
+Tanzania,-33,134
+Turkey,-27,71
+Uganda,-63,120
+Ukraine,-8,137
+United States,12,4
+Venezuela,-2,180
+Argentina,-28,168
+Bangladesh,-15,129
+Bolivia,-44,155
+Brazil,-52,130
+Britain,30,7
+Bulgaria,-9,66
+Canada,47,17
+Chile,-56,37
+China,78,91
+Czech Rep.,-18,65
+Egypt,21,109
+Ethiopia,-5,127
+France,-23,34
+Germany,4,20
+Ghana,-26,64
+India,7,132
+Indonesia,18,128
+Israel,-31,38
+Italy,-26,73
+Côte d'Ivoire,-14,177
+Japan,-16,24
+Jordan,2,106
+Kenya,-87,121
+Kuwait,-76,82
+Lebanon,-57,115
+Malaysia,13,45
+Mali,-16,151
+Mexico,-6,90
+Morocco,-10,97
+Nigeria,-55,89
+Pakistan,25,8
+Peru,-56,5
+Poland,-7,3
+Russia,5,112
+South Africa,-31,3
+South Korea,-8,5
+Senegal,-55,8
+Slovakia,-17,46
+Spain,-23,8
+Sweden,82,13
+Tanzania,-33,6
+Turkey,-27,71
+Uganda,-63,34
+Ukraine,-8,4
+United States,12,44
+Venezuela,-2,5

@@ -298,7 +298,8 @@ $(function() {
 
   $('#findStock').click(function(e){
     stock = $("#stock").val()
-    
+    window.location.pathname = '/'+stock
+    e.preventDefault();
   });
 });
 
