@@ -3,6 +3,7 @@
   <head>
     <h1>Correlation Analysis for {{ stock.ticker }}</h1>
     <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="/static/combined.js"></script>
   <script src="http://code.jquery.com/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="/static/jquery.tipsy.js" type="text/javascript" charset="utf-8"></script>
 	<link rel="stylesheet" href="http://onehackoranother.com/projects/jquery/tipsy/stylesheets/tipsy.css" type="text/css" title="no title" charset="utf-8"/>
@@ -29,10 +30,30 @@
 	  shape-rendering: crispEdges;
 	  opacity: 0;
 	}
+
+
+
 </style>
 </head>
 <body>
-<div id="chart">
+
+	<body>
+<div id="graphdiv4"
+  style="width:480px; height:320px;margin-left:700px;overflow:auto;"></div>
+<script type="text/javascript">
+  g4 = new Dygraph(
+    document.getElementById("graphdiv4"),
+    "/static/twonormals.csv",
+    {
+      rollPeriod: 7,
+      showRoller: true,
+      errorBars: true,
+      valueRange: [-100,500]
+    }
+  );
+</script>
+</body>
+<div id="chart" style="width:500px;margin-top:-300px;">
 
 <script type="text/javascript">
 	// set the stage
@@ -71,7 +92,8 @@
 
 
 // bring in the data, and do everything that is data-driven
-d3.csv("/static/AAPL.csv", function(data) {
+d3.csv("/static/{{stock.ticker}}.csv", function(data) {
+	
 
 	// sort data alphabetically by region, so that the colors match with legend
 	//data.sort(function(a, b) { return d3.ascending(a.region, b.region); })
