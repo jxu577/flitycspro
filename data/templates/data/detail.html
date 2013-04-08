@@ -38,12 +38,21 @@
 <body>
 
 	<body>
+		<div id="graphtitle"
+  style="width:480px; height:150px;margin-left:700px;overflow:auto;">
+<h1>Time Series Graph</h1>
+Actual stock performance shown in red<br>
+Predicted stock performance shown in green<br>
+Sentiment analysis shwon in blue<br>
+</div>
 <div id="graphdiv4"
-  style="width:480px; height:320px;margin-left:700px;overflow:auto;"></div>
+  style="width:480px; height:320px;margin-left:700px;overflow:auto;">
+
+</div>
 <script type="text/javascript">
   g4 = new Dygraph(
     document.getElementById("graphdiv4"),
-    "/static/twonormals.csv",
+    "/static/{{stock.ticker}}.csv",
     {
       rollPeriod: 7,
       showRoller: true,
@@ -53,7 +62,7 @@
   );
 </script>
 </body>
-<div id="chart" style="width:500px;margin-top:-300px;">
+<div id="chart" style="width:500px;margin-top:-450px;">
 
 <script type="text/javascript">
 	// set the stage
@@ -92,7 +101,7 @@
 
 
 // bring in the data, and do everything that is data-driven
-d3.csv("/static/{{stock.ticker}}.csv", function(data) {
+d3.csv("/static/{{stock.ticker}}1.csv", function(data) {
 	
 
 	// sort data alphabetically by region, so that the colors match with legend
